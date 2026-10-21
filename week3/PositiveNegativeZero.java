@@ -4,7 +4,7 @@ package week3;
 public class PositiveNegativeZero {
 public static void main(String[] args) {
 // Declare an integer variable named number and assign it the value 10.
-int number = -5;
+int number = 0;
 // Check if the number is greater than 0.
 if (number > 0) {
 // If true, print that the number is positive.
