@@ -10,3 +10,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Large demo videos (kept on this computer only)
+*.mp4
+
+# NetBeans build output
+build/
+dist/
+nbproject/private/
