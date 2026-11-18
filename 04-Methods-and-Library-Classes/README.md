@@ -15,11 +15,11 @@
 - [Learning outcomes](#learning-outcomes)
 - [1. What is a method? (JFo 4-1)](#1-what-is-a-method-jfo-4-1)
 - [2. Packages and `import` (JFo 4-2)](#2-packages-and-import-jfo-4-2)
-- [3. Reading the API documentation (JFo 4-3)](#3-reading-the-api-documentation-jfo-4-3)
-- [4. The `String` class (JFo 4-4)](#4-the-string-class-jfo-4-4)
-- [5. The `Random` class (JFo 4-5)](#5-the-random-class-jfo-4-5)
-- [6. The `Math` class (JFo 4-6)](#6-the-math-class-jfo-4-6)
-- [7. Worked example: ComputeMethods + TestClass (JFo 4-7, Problem 1)](#7-worked-example-computemethods--testclass-jfo-4-7-problem-1)
+- [3. Reading the API documentation (Oracle BYTE tutorial)](#3-reading-the-api-documentation-oracle-byte-tutorial)
+- [4. The `String` class (JFo 4-3)](#4-the-string-class-jfo-4-3)
+- [5. The `Random` class (JFo 4-4)](#5-the-random-class-jfo-4-4)
+- [6. The `Math` class (JFo 4-5)](#6-the-math-class-jfo-4-5)
+- [7. Worked example: ComputeMethods + TestClass (Oracle Section 4 Practice, Problem 1)](#7-worked-example-computemethods--testclass-oracle-section-4-practice-problem-1)
 - [8. Exercises](#8-exercises)
 - [9. Common mistakes](#9-common-mistakes)
 - [10. Practice questions](#10-practice-questions)
@@ -44,7 +44,7 @@ Given `int[] scores = {4};`, calling `change(scores)` leaves `scores[0]` equal t
 
 **Try it:** split a receipt program into input, subtotal, discount and formatting methods. Test the calculation without keyboard input. Define whether negative quantities are rejected before implementing the calculation.
 
-> **Oracle JFo:** Section 4 (4-1 What is a Method?, 4-2 The import Declaration and Packages, 4-3 Java API Documentation, 4-4 The String Class, 4-5 The Random Class, 4-6 The Math Class, 4-7 Practice)
+> **Oracle JFo:** Section 4 (4-1 What is a Method?, 4-2 The import Declaration and Packages, BYTE Java API tutorial, 4-3 The String Class, 4-4 The Random Class, 4-5 The Math Class, Section 4 Practice)
 > **Class:** RBCS 7121 outline Week 4 (Methods and Arrays: defining and calling methods, parameters and return types, overloading). Arrays are in Unit 07.
 
 ---
@@ -184,7 +184,7 @@ import java.util.*;          // import every class in java.util (wildcard)
 
 ---
 
-## 3. Reading the API documentation (JFo 4-3)
+## 3. Reading the API documentation (Oracle BYTE tutorial)
 
 The **Java API docs** (search "Java 21 API String" or go to docs.oracle.com/en/java/javase/) describe every library class. For each class you'll find:
 - the **package** it's in (so you know what to import)
@@ -206,7 +206,7 @@ public double fToC(double degreesF) { ... }
 
 ---
 
-## 4. The `String` class (JFo 4-4)
+## 4. The `String` class (JFo 4-3)
 
 A `String` is an **object**. Strings are **immutable**: their contents cannot change. Methods that transform text return a String result, which may reuse an existing instance.
 
@@ -242,7 +242,7 @@ System.out.println(a == b);       // false (different objects)
 System.out.println(a.equals(b));  // true  (same text)
 ```
 
-### Worked example: ProcessName (JFo 4-7, Problem 2)
+### Worked example: ProcessName (Oracle Section 4 Practice, Problem 2)
 
 ```java
 import java.util.Scanner;
@@ -269,7 +269,7 @@ Your name is: Weaver, J.
 
 ---
 
-## 5. The `Random` class (JFo 4-5)
+## 5. The `Random` class (JFo 4-4)
 
 ```java
 import java.util.Random;
@@ -300,7 +300,7 @@ if (rand.nextDouble() < 0.5) {
 
 ---
 
-## 6. The `Math` class (JFo 4-6)
+## 6. The `Math` class (JFo 4-5)
 
 Every method is `static`: call them as `Math.method(...)`. No import is needed (`java.lang`).
 
@@ -319,7 +319,7 @@ Every method is `static`: call them as `Math.method(...)`. No import is needed (
 
 ---
 
-## 7. Worked example: ComputeMethods + TestClass (JFo 4-7, Problem 1)
+## 7. Worked example: ComputeMethods + TestClass (Oracle Section 4 Practice, Problem 1)
 
 ```java
 import java.util.Random;

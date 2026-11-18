@@ -25,9 +25,16 @@ def page_markdown(text):
 
 def convert(archive):
     records = []
+    manifest = ROOT/'00-Course-Info'/'sources'/'manifest.json'
+    previous = {r['source']:r for r in json.loads(manifest.read_text(encoding='utf-8'))} if manifest.exists() else {}
     for source in sorted(archive.rglob('*.pdf')):
         relative = source.relative_to(archive)
         if len(relative.parts) < 3:
+            continue
+        checksum = hashlib.sha256(source.read_bytes()).hexdigest()
+        prior = previous.get(relative.as_posix())
+        if prior and prior['sha256'] == checksum and all((ROOT/p).exists() for p in prior['outputs']):
+            records.append(prior)
             continue
         reader = PdfReader(source)
         is_book = source.name.startswith('Java eBook')
@@ -50,7 +57,7 @@ def convert(archive):
         outputs = []
         for start,end,title in groups:
             out = dest / (slug(title) + '.md')
-            body = [f'# {title}\n', f'> Source: {source.name}\n',
+            body = [f'# {title}\n', '[Source index](README.md) · [Unit lesson](../../README.md)\n', f'> Source: {source.name}\n',
                     '> Searchable PDF transcription. Page text preserves extraction order; diagrams, table alignment and code indentation may require the archived PDF. Use the unit README for edited study notes.\n']
             for i in range(start,end):
                 body += [f'\n## PDF page {i+1}\n', page_markdown(reader.pages[i].extract_text() or '[No extractable text on this page.]')]

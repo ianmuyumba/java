@@ -4,7 +4,7 @@
 
 **Read → trace → code → test → explain**
 
-[Source library](sources/README.md) · [Practice guide](PRACTICE.md)
+[Oracle review and missing-task guidance](ORACLE_REVIEW.md) · [Source library](sources/README.md) · [Practice guide](PRACTICE.md)
 
 [Liang Ch. 3](../00-Course-Info/sources/textbook/chapter-3-selections.md)
 
@@ -44,7 +44,7 @@ Short-circuit `&&` and `||` evaluate the right operand only when necessary. Bool
 **Try it:** build a fare decision table with age bands and a membership discount. Specify whether discounts combine; then test every table row and every exact cutoff.
 
 > **Class:** RBCS 7121 Week 3 (Control Flow: Conditionals)
-> **Oracle JFo:** Section 5 (5-1 Boolean Expressions and if/else Constructs; 5-2 Conditional Execution and 5-3 switch are covered here from the class notes)
+> **Oracle JFo:** Section 5 (5-1 Boolean Expressions and if/else Constructs; 5-2 Understanding Conditional Execution, 5-3 switch; all three slide sources now archived)
 
 ---
 
@@ -281,8 +281,8 @@ switch (grade) {
 // Pass
 ```
 
-### Types allowed in `switch`
-✅ `int`, `char`, `byte`, `short`, **`String`** (Java 7+), enums. ❌ `long`, `float`, `double`, `boolean`.
+### Traditional Oracle-course types allowed in `switch`
+For the traditional forms used in this course: `int`, `char`, `byte`, `short`, their corresponding wrappers, `String` and enums. Primitive `long`, `float`, `double` and `boolean` are not selectors in this baseline. Newer pattern-switch and preview forms are outside this lesson.
 
 ### Modern arrow-style switch (Java 14+): no `break` needed, no fall-through
 ```java

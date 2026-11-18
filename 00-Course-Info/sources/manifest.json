@@ -362,6 +362,38 @@
     ]
   },
   {
+    "source": "05-Conditionals/oracle-jfo/5-2 Student Guide.pdf",
+    "sha256": "fe4d7b03396ebc08947a96e2ad88bb024740d1e9bc8eaeb51b4bd37f577f4382",
+    "pages": 32,
+    "outputs": [
+      "05-Conditionals/sources/oracle-jfo/5-2-student-guide.md"
+    ]
+  },
+  {
+    "source": "05-Conditionals/oracle-jfo/5-2 Understanding Conditional Execution.pdf",
+    "sha256": "98ea9e5aac0bf57cd4f66ce5b2e5af96a92a5019c4b33d9b06243e9e4d4e3732",
+    "pages": 32,
+    "outputs": [
+      "05-Conditionals/sources/oracle-jfo/5-2-understanding-conditional-execution.md"
+    ]
+  },
+  {
+    "source": "05-Conditionals/oracle-jfo/5-3 switch Statement.pdf",
+    "sha256": "f436d5afd62965b2d37a401c3c95345283c0f780e17b4c27ed9d111e807a6b71",
+    "pages": 21,
+    "outputs": [
+      "05-Conditionals/sources/oracle-jfo/5-3-switch-statement.md"
+    ]
+  },
+  {
+    "source": "05-Conditionals/oracle-jfo/5-4 Practice.pdf",
+    "sha256": "162a31325682dea0ae4f18666748f3e1139c7039b767b4fa5245e25991384784",
+    "pages": 4,
+    "outputs": [
+      "05-Conditionals/sources/oracle-jfo/5-4-practice.md"
+    ]
+  },
+  {
     "source": "06-Loops/class-notes/Week 4 - Comprehensive Notes - Loops.pdf",
     "sha256": "4ed5ee30e91c665b396904a4c655dafcab11dd9df8d38fcfa37544aedc9e91ca",
     "pages": 35,
@@ -463,6 +495,14 @@
     "pages": 34,
     "outputs": [
       "07-Arrays-and-ArrayLists/sources/oracle-jfo/8-2-arraylists.md"
+    ]
+  },
+  {
+    "source": "07-Arrays-and-ArrayLists/oracle-jfo/8-2 Student Guide.pdf",
+    "sha256": "8643f7b2e7f6907336450455f4725fc9e7e303c259bad97f824478c47087114c",
+    "pages": 34,
+    "outputs": [
+      "07-Arrays-and-ArrayLists/sources/oracle-jfo/8-2-student-guide.md"
     ]
   },
   {
@@ -639,6 +679,14 @@
     "pages": 6,
     "outputs": [
       "11-JavaFX/sources/oracle-jfo/9-3-setup-javafx-in-netbeans.md"
+    ]
+  },
+  {
+    "source": "11-JavaFX/oracle-jfo/9-3 Student Guide.pdf",
+    "sha256": "05aec7234a5381f932dc14f6e8bc6b3ab812347e52bc2c35714e6113b3e4716f",
+    "pages": 37,
+    "outputs": [
+      "11-JavaFX/sources/oracle-jfo/9-3-student-guide.md"
     ]
   },
   {

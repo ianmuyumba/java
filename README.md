@@ -3,7 +3,7 @@
 **Ian Muyumba · Riara University · RBCS 7121 Object-Oriented Programming**
 With Oracle Academy Java Foundations and Y. Daniel Liang’s *Introduction to Java Programming*, 10th edition.
 
-[Start learning](01-Introduction-to-Java/README.md) · [Track progress](PROGRESS.md) · [Exercise guide](EXERCISES.md) · [Book chapters](00-Course-Info/sources/textbook/README.md) · [Sources and archive](SOURCES.md)
+[Start learning](01-Introduction-to-Java/README.md) · [Track progress](PROGRESS.md) · [Exercise guide](EXERCISES.md) · [Book chapters](00-Course-Info/sources/textbook/README.md) · [Sources and archive](SOURCES.md) · [Oracle coverage review](ORACLE_AUDIT.md) · [Exam preparation](EXAM_PREP.md)
 
 ## Your study path
 

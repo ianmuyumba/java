@@ -4,7 +4,7 @@
 
 **Read → trace → code → test → explain**
 
-[Source library](sources/README.md) · [Practice guide](PRACTICE.md)
+[Oracle review and missing-task guidance](ORACLE_REVIEW.md) · [Source library](sources/README.md) · [Practice guide](PRACTICE.md)
 
 [Liang Ch. 7](../00-Course-Info/sources/textbook/chapter-7-single-dimensional-arrays.md) · [Liang Ch. 8](../00-Course-Info/sources/textbook/chapter-8-multidimensional-arrays.md) · [Liang Ch. 11](../00-Course-Info/sources/textbook/chapter-11-inheritance-and-polymorphism.md)
 

@@ -1,4 +1,4 @@
-﻿# Unit 03 Â· Variables, Data Types & Operators
+﻿# Unit 03 · Variables, Data Types & Operators
 
 [Course home](../README.md) · [Progress](../PROGRESS.md) · [← Previous](../02-Software-Development-and-OOP-Basics/README.md) · [Next →](../04-Methods-and-Library-Classes/README.md)
 
@@ -87,18 +87,18 @@ Use names that say what the value means: `monthlyProfit`, not `mp` or `x`.
 
 | Type | Size | Range / precision | Example | Use for |
 |------|------|-------------------|---------|---------|
-| `byte` | 8 bits | âˆ’128 to 127 | `byte age = 20;` | Tiny numbers (saving memory) |
-| `short` | 16 bits | âˆ’32,768 to 32,767 | `short year = 2026;` | Medium numbers |
-| **`int`** | 32 bits | about Â±2.1 billion | `int population = 54_000_000;` | **The default whole-number type** |
-| `long` | 64 bits | about Â±9.2 Ã— 10Â¹â¸ | `long worldPop = 8_000_000_000L;` | Very large whole numbers. **Needs `L`** |
+| `byte` | 8 bits | −128 to 127 | `byte age = 20;` | Tiny numbers (saving memory) |
+| `short` | 16 bits | −32,768 to 32,767 | `short year = 2026;` | Medium numbers |
+| **`int`** | 32 bits | about ±2.1 billion | `int population = 54_000_000;` | **The default whole-number type** |
+| `long` | 64 bits | about ±9.2 × 10¹⁸ | `long worldPop = 8_000_000_000L;` | Very large whole numbers. **Needs `L`** |
 | `float` | 32 bits | ~7 significant digits | `float rate = 7.5f;` | Less precise decimals. **Needs `f`** |
 | **`double`** | 64 bits | ~15 significant digits | `double balance = 15000.75;` | **The default decimal type** |
-| `char` | 16 bits | one Unicode character (0â€“65,535) | `char grade = 'A';` | A single character, in **single quotes** |
-| `boolean` | â€” | `true` / `false` | `boolean isActive = true;` | Yes/no conditions |
+| `char` | 16 bits | one Unicode character (0–65,535) | `char grade = 'A';` | A single character, in **single quotes** |
+| `boolean` | — | `true` / `false` | `boolean isActive = true;` | Yes/no conditions |
 
 ```java
-long worldPopulation = 8000000000L;   // âœ… without L: "integer number too large"
-float interestRate = 7.5f;            // âœ… without f: "possible lossy conversion from double to float"
+long worldPopulation = 8000000000L;   // ✅ without L: "integer number too large"
+float interestRate = 7.5f;            // ✅ without f: "possible lossy conversion from double to float"
 int big = 1_000_000;                  // underscores make big numbers readable (Java 7+)
 ```
 
@@ -113,7 +113,7 @@ int big = 1_000_000;                  // underscores make big numbers readable (
 
 ### Choosing the right type
 
-| To storeâ€¦ | Use | Why |
+| To store… | Use | Why |
 |-----------|-----|-----|
 | Age, count, number of items | `int` | Whole numbers |
 | Money, GPA, temperature | `double` | Has decimals |
@@ -152,11 +152,11 @@ System.out.println(7 / 2 * 2);   // 6, not 7!
 
 ```java
 int total = 10;
-total += 5;    // total = total + 5  â†’ 15
-total -= 3;    // â†’ 12
-total *= 2;    // â†’ 24
-total /= 4;    // â†’ 6
-total %= 4;    // â†’ 2
+total += 5;    // total = total + 5  → 15
+total -= 3;    // → 12
+total *= 2;    // → 24
+total /= 4;    // → 6
+total %= 4;    // → 2
 ```
 
 | Expression | Name | Behaviour |
@@ -172,13 +172,13 @@ int b = ++x;   // x = 7, b = 7
 ```
 
 ### 3.3 Relational operators (they return a `boolean`)
-`==` equal Â· `!=` not equal Â· `>` Â· `<` Â· `>=` Â· `<=`
+`==` equal · `!=` not equal · `>` · `<` · `>=` · `<=`
 
-> âš ï¸ `=` **assigns** a value; `==` **compares**. `if (x = 5)` is a compile error in Java.
+> ⚠️ `=` **assigns** a value; `==` **compares**. `if (x = 5)` is a compile error in Java.
 
 ### 3.4 Logical operators
 
-| Operator | Meaning | True whenâ€¦ |
+| Operator | Meaning | True when… |
 |----------|---------|------------|
 | `&&` | AND | **both** sides are true |
 | `\|\|` | OR | **at least one** side is true |
@@ -205,7 +205,7 @@ System.out.println(x);               // 5
 | 7 | `&&` |
 | 8 | `\|\|` |
 | 9 | `? :` (ternary) |
-| 10 | `=` `+=` `-=` â€¦ (assignment, evaluated right to left) |
+| 10 | `=` `+=` `-=` … (assignment, evaluated right to left) |
 
 Operators on the same level are evaluated **left to right** (except assignment).
 
@@ -259,7 +259,7 @@ System.out.println("This ends the line.");
 System.out.printf("Balance: KSh %.2f%n", 15000.756);   // Balance: KSh 15000.76
 System.out.printf("%-10s|%5d|%n", "Ian", 42);         // left-aligned name, right-aligned number
 ```
-`printf` format codes: `%d` int Â· `%f` decimal (`%.2f` = 2 decimal places) Â· `%s` String Â· `%c` char Â· `%b` boolean Â· `%n` new line Â· a number gives the width (`%5d`) Â· `-` left-aligns.
+`printf` format codes: `%d` int · `%f` decimal (`%.2f` = 2 decimal places) · `%s` String · `%c` char · `%b` boolean · `%n` new line · a number gives the width (`%5d`) · `-` left-aligns.
 
 ### 4.4 `char` is really a number
 A `char` stores a Unicode code, so you can do arithmetic on it:
@@ -276,8 +276,8 @@ char next = (char)(c + 1); // 'B'
 ### 5.1 Widening (implicit, automatic, safe)
 From a smaller type to a bigger one:
 ```
-byte â†’ short â†’ int â†’ long â†’ float â†’ double
-               char â†—
+byte → short → int → long → float → double
+               char ↗
 ```
 ```java
 int i = 100;
@@ -290,8 +290,8 @@ int ascii = letter;    // 65
 
 ```java
 byte b1 = 10, b2 = 20;
-// byte sum = b1 + b2;     // âŒ b1 + b2 is an int
-byte sum = (byte)(b1 + b2); // âœ…
+// byte sum = b1 + b2;     // ❌ b1 + b2 is an int
+byte sum = (byte)(b1 + b2); // ✅
 ```
 
 ### 5.2 Narrowing (explicit casting, may lose data)
@@ -312,7 +312,7 @@ byte b = 127;
 b++;                            // b is now -128
 ```
 
-> **Watch the timing of a cast.** `(double)(7 / 2)` â†’ `3.0` (the integer division already happened). `(double) 7 / 2` â†’ `3.5` (the cast happens first, then double division).
+> **Watch the timing of a cast.** `(double)(7 / 2)` → `3.0` (the integer division already happened). `(double) 7 / 2` → `3.5` (the cast happens first, then double division).
 
 ### 5.3 Parsing Strings into numbers
 
@@ -322,8 +322,8 @@ double p   = Double.parseDouble("45.67");  // 45.67
 long pop   = Long.parseLong("8000000000");
 boolean ok = Boolean.parseBoolean("true");
 
-Integer.parseInt("abc");   // âŒ NumberFormatException at runtime
-Integer.parseInt("12.5");  // âŒ NumberFormatException (not a whole number)
+Integer.parseInt("abc");   // ❌ NumberFormatException at runtime
+Integer.parseInt("12.5");  // ❌ NumberFormatException (not a whole number)
 ```
 
 ### 5.4 Numbers into Strings
@@ -337,7 +337,7 @@ String s3 = Integer.toString(42);
 
 | Wrong | Why | Fix |
 |-------|-----|-----|
-| `int x = 3.14;` | double â†’ int needs a cast | `int x = (int) 3.14;` |
+| `int x = 3.14;` | double → int needs a cast | `int x = (int) 3.14;` |
 | `int y = "100";` | a String isn't a number | `int y = Integer.parseInt("100");` |
 | `int z = true;` | boolean isn't numeric | use the right type |
 | `String s = 'A';` | char isn't a String | `String s = "A";` |
@@ -380,16 +380,16 @@ public class ScannerDemo {
 | `nextInt()` / `nextDouble()` / `nextLong()` / `nextBoolean()` | the next token, converted to that type |
 | `hasNextInt()` | `true` if the next token *is* an int (useful for validation) |
 
-**Tokens and delimiters:** Scanner splits input at whitespace (the **delimiter**). For the input `128 3.141 Puppies!`, `nextInt()` â†’ 128, `nextDouble()` â†’ 3.141, `next()` â†’ `"Puppies!"`. `findInLine("BlueBumper")` searches the current line for that text.
+**Tokens and delimiters:** Scanner splits input at whitespace (the **delimiter**). For the input `128 3.141 Puppies!`, `nextInt()` → 128, `nextDouble()` → 3.141, `next()` → `"Puppies!"`. `findInLine("BlueBumper")` searches the current line for that text.
 
 **Scanner can read a file too** (exercise `Input04`): `new Scanner(Input04.class.getResourceAsStream("input04text.txt"))`.
 
 ### 6.2 Classic pitfall: `nextLine()` after `nextInt()`
-`nextInt()` leaves the Enter key (`\n`) in the buffer, so the next `nextLine()` returns an empty string straight away.
+`nextInt()` consumes the numeric token but leaves the rest of that line. `nextLine()` then reads that remainder, which is empty if the number was followed immediately by a line break.
 
 ```java
 int age = scanner.nextInt();
-scanner.nextLine();                  // âœ… swallow the leftover newline
+scanner.nextLine();                  // ✅ swallow the leftover newline
 String name = scanner.nextLine();    // now this waits for the user
 ```
 
@@ -463,13 +463,13 @@ Average:        14.50
 | `Chickens01/02` | Declare the variables for the egg farm and calculate the totals, daily/monthly averages and profit | Arithmetic, choosing types |
 | `ShoppingCart01/02` | Build a message string, then add price, tax, quantity and total | Concatenation, operators |
 | `Casting01` | `byte` = 128, then cast a `short` 128 to `byte`, then 127 + 1 | Overflow, casting |
-| `Casting02` | Fix the population program (int overflow, the `long` literal, double â†’ long) | Widening, narrowing |
+| `Casting02` | Fix the population program (int overflow, the `long` literal, double → long) | Widening, narrowing |
 | `Parsing01` | Parse `shirtPrice` and `taxRate`, then try parsing gibberish | `parseInt`, `parseDouble`, NumberFormatException |
 | `Input01/02` | `JOptionPane` input, parse it, add 1 | Dialog input |
 | `Input03` | Read three ints with Scanner and print the sum | Scanner |
 | `Input04` | Read tokens from `input04text.txt` and find `BlueBumper`'s x/y | Tokens, `findInLine` |
 | `JavaLibs` / `JavaLibsPractice` | Use a class from an external `.jar` library | Libraries |
-| `my-work/TypeConversion.java` | **To do:** demonstrate widening, narrowing, parsing and `String.valueOf` | All of Â§5 |
+| `my-work/TypeConversion.java` | **To do:** demonstrate widening, narrowing, parsing and `String.valueOf` | All of §5 |
 
 Run one: `java 03-Variables-Data-Types-and-Operators/exercises/Variables01/Variables01.java`
 
@@ -515,12 +515,12 @@ Run one: `java 03-Variables-Data-Types-and-Operators/exercises/Variables01/Varia
 4. `x++` gives 5 (x becomes 6). `++x` makes x 7 and gives 7. So y = 12 and x = 7.
 5. `Result: 46`. Write `"Result: " + (4 + 6)` instead.
 6. Implicit (widening) happens automatically from small to large: `double d = 10;`. Explicit (narrowing) needs a cast operator: `int i = (int) 9.7;`.
-7. `3`. Use `(int) Math.round(3.99)` â†’ `4`.
-8. `3.5` is a `double` literal, and double â†’ float is narrowing. Write `3.5f`.
+7. `3`. Use `(int) Math.round(3.99)` → `4`.
+8. `3.5` is a `double` literal, and double → float is narrowing. Write `3.5f`.
 9. It throws a `NumberFormatException`, because "12.5" isn't an integer.
 10. `nextInt()` leaves the newline in the buffer, and `nextLine()` reads up to that newline straight away. Call an extra `scanner.nextLine()` after `nextInt()`.
-11. (a) âŒ needs `L`. (b) âœ… widening. (c) âŒ needs a cast. (d) âœ… 100 fits in a byte.
-12. `-126`. A byte holds âˆ’128 to 127, and 130 wraps round: 130 âˆ’ 256 = âˆ’126.
+11. (a) ❌ needs `L`. (b) ✅ widening. (c) ❌ needs a cast. (d) ✅ 100 fits in a byte.
+12. `-126`. A byte holds −128 to 127, and 130 wraps round: 130 − 256 = −126.
 13. `System.out.printf("Total: KSh %.2f%n", total);` (or `%,.2f` to add thousands separators).
 </details>
 
@@ -534,3 +534,11 @@ Run one: `java 03-Variables-Data-Types-and-Operators/exercises/Variables01/Varia
 - `x++` uses the value and then increments; `++x` increments first. `&&` and `||` short-circuit.
 - Widening is automatic; narrowing needs `(type)` and may truncate or overflow. Parse strings with `Integer.parseInt` and `Double.parseDouble`.
 - `Scanner(System.in)`: `nextLine`, `next`, `nextInt`, `nextDouble`. Clear the newline after `nextInt`. Close the scanner when done.
+
+## Oracle input checkpoint · Tokens and delimiters
+
+The default Scanner delimiter matches whitespace, not just a single space. `next()` consumes one token; `nextLine()` reads the remainder of the current line. A call to `useDelimiter(",")` changes token separation, but does not itself parse each token as a number or guarantee trimming of surrounding spaces.
+
+**Try it:** construct a Scanner from `"12,7,9"`, select a comma delimiter, and sum the integer tokens using `hasNextInt()`. Change the input to `"12,unknown,9"`: explain why a loop that stops when `hasNextInt()` is false does not process the final 9. Decide whether to reject the record or consume/report the invalid token.
+
+For the supplied Input04 resource, keep its text files available on the runtime classpath. `getResourceAsStream(...)` returns null if the resource is absent; that is a resource-location problem, not malformed numeric input.

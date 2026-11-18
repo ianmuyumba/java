@@ -147,3 +147,15 @@ Each unit ends with **Notes read**, **Exercises done** and **Practice questions 
 - [ ] CAT 1
 - [ ] CAT 2
 - [ ] Final exam
+
+## Oracle Foundations revision
+
+Use the [exam preparation guide](EXAM_PREP.md) and [coverage review](ORACLE_AUDIT.md). Course completion percentages are separate from this self-assessment.
+
+- [ ] Complete the original midterm diagnostic (Oracle S1–S5) and explain each answer
+- [ ] Practise Section 5 wavelength, traffic-light and literal fare boundaries
+- [ ] Compile CalculatorTest4 with Calculator4 and complete its table-total task
+- [ ] Traverse an ArrayList with an iterator and safely remove adjacent negative values
+- [ ] Complete the original final diagnostic (Oracle S6–S9) and explain each answer
+- [ ] Configure JavaFX and complete the restored scene, shapes and goal/media starters
+- [ ] Revisit every guessed or incorrect diagnostic answer with a fresh example

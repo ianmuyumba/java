@@ -22,7 +22,12 @@ Existing `exercises/` files are supplied practice material and may intentionally
 
 ## Existing Java files
 
-No supplied Java starter files in this unit. Create your own attempt for the tasks above.
+| File | Location |
+|---|---|
+| [Goal_Student_9_3.java](exercises/GoalTestStudent/Goal_Student_9_3.java) | `exercises` |
+| [GoalTest_Student_9_3.java](exercises/GoalTestStudent/GoalTest_Student_9_3.java) | `exercises` |
+| [JavaFXMain.java](exercises/JavaFXMain/JavaFXMain.java) | `exercises` |
+| [JavaFXMainEx1.java](exercises/JavaFXMainEx1/JavaFXMainEx1.java) | `exercises` |
 
 ## Source exercises
 
@@ -34,3 +39,7 @@ No supplied Java starter files in this unit. Create your own attempt for the tas
 - [ ] I tested relevant boundaries and failure cases.
 - [ ] My class name matches its filename.
 - [ ] I recorded the run command and expected output.
+
+## Oracle lesson alignment
+
+Read the [Oracle review](ORACLE_REVIEW.md) for exact task requirements, source corrections and additional checks.

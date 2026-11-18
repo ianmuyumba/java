@@ -49,3 +49,7 @@ Existing `exercises/` files are supplied practice material and may intentionally
 - [ ] I tested relevant boundaries and failure cases.
 - [ ] My class name matches its filename.
 - [ ] I recorded the run command and expected output.
+
+## Oracle tracing checkpoint
+
+Trace a loop with an initially false condition, a do-while loop, and a for loop containing continue before the output statement. Record the loop variable before the test, before the body and after the update. Explain which enclosing construct a break exits.

@@ -24,6 +24,7 @@ Existing `exercises/` files are supplied practice material and may intentionally
 
 | File | Location |
 |---|---|
+| [ProblemSet2_1.java](exercises/ProblemSet2_1/ProblemSet2_1.java) | `exercises` |
 | [ProblemSet2_2.java](exercises/ProblemSet2_2/ProblemSet2_2.java) | `exercises` |
 | [Text01.java](exercises/Text01/Text01.java) | `exercises` |
 | [Text02.java](exercises/Text02/Text02.java) | `exercises` |

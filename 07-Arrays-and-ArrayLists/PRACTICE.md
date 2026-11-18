@@ -24,6 +24,7 @@ Existing `exercises/` files are supplied practice material and may intentionally
 
 | File | Location |
 |---|---|
+| [IteratorDemo.java](examples/IteratorDemo.java) | `examples` |
 | [ArrayEx1.java](exercises/ArrayEx1/ArrayEx1.java) | `exercises` |
 | [ArrayEx2.java](exercises/ArrayEx2/ArrayEx2.java) | `exercises` |
 | [ArrayListEx1.java](exercises/ArrayListEx1/ArrayListEx1.java) | `exercises` |
@@ -39,3 +40,7 @@ Existing `exercises/` files are supplied practice material and may intentionally
 - [ ] I tested relevant boundaries and failure cases.
 - [ ] My class name matches its filename.
 - [ ] I recorded the run command and expected output.
+
+## Oracle lesson alignment
+
+Read the [Oracle review](ORACLE_REVIEW.md) for exact task requirements, source corrections and additional checks.

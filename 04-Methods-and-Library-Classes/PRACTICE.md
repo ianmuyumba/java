@@ -30,6 +30,7 @@ Existing `exercises/` files are supplied practice material and may intentionally
 | [Calculator4.java](exercises/Calculator4/Calculator4.java) | `exercises` |
 | [CalculatorTest2.java](exercises/CalculatorTest2/CalculatorTest2.java) | `exercises` |
 | [CalculatorTest3.java](exercises/CalculatorTest3/CalculatorTest3.java) | `exercises` |
+| [CalculatorTest4.java](exercises/CalculatorTest4/CalculatorTest4.java) | `exercises` |
 | [ComputeBMI.java](exercises/ComputeBMI/ComputeBMI.java) | `exercises` |
 | [ComputeMethods.java](exercises/ComputeMethods/ComputeMethods.java) | `exercises` |
 | [FlipCoin.java](exercises/FlipCoin/FlipCoin.java) | `exercises` |
@@ -49,3 +50,7 @@ Existing `exercises/` files are supplied practice material and may intentionally
 - [ ] I tested relevant boundaries and failure cases.
 - [ ] My class name matches its filename.
 - [ ] I recorded the run command and expected output.
+
+## Restored companion and source mismatch
+
+`CalculatorTest4` requires `Calculator4`. Compile both files together into an isolated output directory. Complete its names and table-total task; changing the return contract requires changes to both caller and calculator. Oracle’s live Section 4 ShoppingCart download currently matches the exception task in Unit 10, rather than a separate String exercise. See [the audit](../ORACLE_AUDIT.md).

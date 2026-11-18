@@ -4,7 +4,7 @@
 
 **Read → trace → code → test → explain**
 
-[Source library](sources/README.md) · [Practice guide](PRACTICE.md)
+[Oracle review and missing-task guidance](ORACLE_REVIEW.md) · [Source library](sources/README.md) · [Practice guide](PRACTICE.md)
 
 [Liang Ch. 14](../00-Course-Info/sources/textbook/chapter-14-javafx-basics.md) · [Liang Ch. 15](../00-Course-Info/sources/textbook/chapter-15-event-driven-programming-and-animations.md) · [Liang Ch. 16](../00-Course-Info/sources/textbook/chapter-16-javafx-ui-controls-and-multimedia.md)
 
@@ -16,8 +16,8 @@
 - [1. What is JavaFX?](#1-what-is-javafx)
 - [2. The theatre metaphor: Stage, Scene, nodes](#2-the-theatre-metaphor-stage-scene-nodes)
 - [3. A minimal JavaFX program](#3-a-minimal-javafx-program)
-- [4. Coordinates, colours and shapes (JFo 9-4)](#4-coordinates-colours-and-shapes-jfo-9-4)
-- [5. Graphics, audio and mouse events (JFo 9-5)](#5-graphics-audio-and-mouse-events-jfo-9-5)
+- [4. Coordinates, colours and shapes (JFo 9-2)](#4-coordinates-colours-and-shapes-jfo-9-2)
+- [5. Graphics, audio and mouse events (JFo 9-3)](#5-graphics-audio-and-mouse-events-jfo-9-3)
 - [6. Worked example: a draggable weighted centre point](#6-worked-example-a-draggable-weighted-centre-point)
 - [7. Exercises](#7-exercises)
 - [8. Common mistakes](#8-common-mistakes)
@@ -38,7 +38,7 @@ An event handler runs in response to an event rather than in the written order o
 
 The historical JavaFX setup PDFs describe older IDE configurations. JavaFX needs a compatible JavaFX SDK or dependency configuration in addition to the JDK; console examples do not require JavaFX.
 
-> **Oracle JFo:** Section 9 (9-1 Introduction to JavaFX, 9-2 Setup JavaFX in Eclipse, 9-3 Setup JavaFX in NetBeans, 9-4 Colors and Shapes, 9-5 Graphics, Audio, and MouseEvents, 9-6 Practice: CampusMap)
+> **Oracle JFo:** Section 9 (9-1 Introduction to JavaFX, 9-2 Colors and Shapes, 9-3 Graphics, Audio, and MouseEvents; separate IDE setup resources and Section 9 Practice: CampusMap)
 > **Class:** not part of RBCS 7121 (an Oracle JFo extension topic)
 
 ---
@@ -123,7 +123,7 @@ public class HelloFX extends Application {      // 1. extend Application
 
 ---
 
-## 4. Coordinates, colours and shapes (JFo 9-4)
+## 4. Coordinates, colours and shapes (JFo 9-2)
 
 ### The coordinate system
 The origin **(0, 0) is the top-left corner**. **x increases to the right; y increases downwards** (the opposite of maths graphs).
@@ -169,7 +169,7 @@ node.setVisible(false);
 
 ---
 
-## 5. Graphics, audio and mouse events (JFo 9-5)
+## 5. Graphics, audio and mouse events (JFo 9-3)
 
 ### Images
 ```java
