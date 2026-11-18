@@ -18,3 +18,10 @@ Thumbs.db
 build/
 dist/
 nbproject/private/
+
+# Local Python tooling and generated exercise reports
+__pycache__/
+attendance-report.txt
+
+# Course PDFs are archived outside the repository; Markdown is the reading format
+*.pdf

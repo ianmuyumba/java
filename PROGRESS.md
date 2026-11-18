@@ -11,7 +11,7 @@ Each unit ends with **Notes read**, **Exercises done** and **Practice questions 
 - [ ] Read the JFo final project brief
 - [ ] Installed the required software (JDK, IDE)
 
-## 01 · Introduction to Java → [folder](01-Introduction-to-Java/) · [notes](01-Introduction-to-Java/NOTES.md)
+## 01 · Introduction to Java → [folder](01-Introduction-to-Java/) · [notes](01-Introduction-to-Java/README.md)
 - [ ] What Java is and why it matters (history, where Java is used)
 - [ ] Java editions (SE, EE, ME, Java Card)
 - [ ] Features of Java: platform independence, "write once, run anywhere"
@@ -136,10 +136,10 @@ Each unit ends with **Notes read**, **Exercises done** and **Practice questions 
 
 ---
 
-## Coming up (class outline, no material yet)
-- [ ] Abstraction & Interfaces: abstract classes, interfaces, functional interfaces
-- [ ] Collections Framework: List, Set, Map, iterators, sorting and searching
-- [ ] File I/O: reading and writing files, `BufferedReader`, `FileWriter`
+## Further class topics and projects
+- [ ] Abstraction & Interfaces: abstract classes, interfaces, functional interfaces — [Week 9 source files](12-Abstraction-and-Interfaces/sources/class-notes/) (abstract classes also appear in [Week 8](09-Inheritance-and-Polymorphism/sources/class-notes/))
+- [ ] Collections Framework: List, Set, Map, iterators, sorting and searching — [Week 10 source files](13-Collections-Framework-and-File-IO/sources/class-notes/)
+- [ ] File I/O: reading and writing files, `BufferedReader`, `FileWriter` — [Week 10 source files](13-Collections-Framework-and-File-IO/sources/class-notes/)
 - [ ] Final project: console-based library management system
 - [ ] Oracle JFo final project
 

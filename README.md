@@ -1,58 +1,67 @@
-# My Java Course
+# Java · Learn, practise, build
 
-**Ian · Riara University · RBCS 7121 Object-Oriented Programming**
-Plus Oracle Academy **Java Foundations** (NetAcad), which I'm doing alongside it.
+**Ian Muyumba · Riara University · RBCS 7121 Object-Oriented Programming**
+With Oracle Academy Java Foundations and Y. Daniel Liang’s *Introduction to Java Programming*, 10th edition.
 
-All my Java material is in one place, sorted by topic rather than by week.
-Track what I've finished in **[PROGRESS.md](PROGRESS.md)**.
+[Start learning](01-Introduction-to-Java/README.md) · [Track progress](PROGRESS.md) · [Exercise guide](EXERCISES.md) · [Book chapters](00-Course-Info/sources/textbook/README.md) · [Sources and archive](SOURCES.md)
 
-## Topics
+## Your study path
 
-| # | Folder | Class weeks (ODEL) | Oracle JFo sections |
-|---|--------|--------------------|---------------------|
-| 00 | [Course Info](00-Course-Info/) | Course outline | 0 (course map, objectives, final project, software) |
-| 01 | [Introduction to Java](01-Introduction-to-Java/) | Week 1 | 1 |
-| 02 | [Software Development & OOP Basics](02-Software-Development-and-OOP-Basics/) | | 2 |
-| 03 | [Variables, Data Types & Operators](03-Variables-Data-Types-and-Operators/) | Week 2 | 3 |
-| 04 | [Methods & Library Classes](04-Methods-and-Library-Classes/) | | 4 |
-| 05 | [Conditionals](05-Conditionals/) | Week 3 | 5 |
-| 06 | [Loops](06-Loops/) | Week 4 | 6 |
-| 07 | [Arrays & ArrayLists](07-Arrays-and-ArrayLists/) | Week 5 | 8-1, 8-2 |
-| 08 | [Classes & Objects](08-Classes-and-Objects/) | Week 6 | 7 |
-| 09 | [Inheritance & Polymorphism](09-Inheritance-and-Polymorphism/) | Week 7 | |
-| 10 | [Exceptions & Debugging](10-Exceptions-and-Debugging/) | | 8-3, 8-4 |
-| 11 | [JavaFX](11-JavaFX/) | | 9 |
+Every unit opens directly to its lesson on GitHub. Read, trace an example, attempt the practice ladder, then explain the result independently.
 
-Still to come in the class outline: Abstraction & Interfaces, the Collections Framework, File I/O and the final project. Each gets its own folder when its material arrives.
+| Unit | Topic | Book chapters |
+|---|---|---|
+| 00 | [Course Info](00-Course-Info/README.md) | 1 |
+| 01 | [Introduction to Java](01-Introduction-to-Java/README.md) | 1 |
+| 02 | [Software Development and OOP Basics](02-Software-Development-and-OOP-Basics/README.md) | 2, 10 |
+| 03 | [Variables Data Types and Operators](03-Variables-Data-Types-and-Operators/README.md) | 2, 4 |
+| 04 | [Methods and Library Classes](04-Methods-and-Library-Classes/README.md) | 4, 6 |
+| 05 | [Conditionals](05-Conditionals/README.md) | 3 |
+| 06 | [Loops](06-Loops/README.md) | 5 |
+| 07 | [Arrays and ArrayLists](07-Arrays-and-ArrayLists/README.md) | 7, 8, 11 |
+| 08 | [Classes and Objects](08-Classes-and-Objects/README.md) | 9, 10 |
+| 09 | [Inheritance and Polymorphism](09-Inheritance-and-Polymorphism/README.md) | 11, 13 |
+| 10 | [Exceptions and Debugging](10-Exceptions-and-Debugging/README.md) | 12 |
+| 11 | [JavaFX](11-JavaFX/README.md) | 14, 15, 16 |
+| 12 | [Abstraction and Interfaces](12-Abstraction-and-Interfaces/README.md) | 13, 12 |
+| 13 | [Collections Framework and File IO](13-Collections-Framework-and-File-IO/README.md) | 19, 20, 21, 12, 17 |
 
-## Inside each topic folder
+**Console-first route:** Units 01–10 → 12 → 13. Study JavaFX in Unit 11 when ready for graphical applications. Folder numbers remain stable so existing code paths are easy to recognise.
 
-```
+## Inside each unit
+
+```text
 NN-Topic/
-  NOTES.md        my study notes for the unit: explanations, code examples, practice questions
-  class-notes/    PDFs from the Riara online platform (ODEL), named by week
-  oracle-jfo/     Oracle Academy Java Foundations PDFs, named by lesson (e.g. 3-1)
-  exercises/      Oracle starter code, unzipped
-  my-work/        programs I wrote myself
+├── README.md       Lesson, examples, checkpoints and book connections
+├── PRACTICE.md     Practice ladder and linked Java file index
+├── sources/        Indexed Markdown transcriptions of course PDFs
+├── examples/       Worked runnable demonstrations, where supplied
+├── exercises/      Original supplied practice files, where available
+└── my-work/        Your programs and future attempts
 ```
 
-## Running the code
+The textbook lives once in `00-Course-Info/sources/textbook/`, split into chapters. Riara Week 8 is in Unit 09, Week 9 in Unit 12, and Week 10 in Unit 13.
 
-The JDK is installed, so a single-file program can be run directly:
+## Run an example
 
-```
-java 03-Variables-Data-Types-and-Operators/exercises/Casting01/Casting01.java
-```
+Open a terminal at the repository root:
 
-Or compile first, then run:
-
-```
-cd 06-Loops/my-work
-javac BodaBodaFare.java     # makes BodaBodaFare.class (bytecode)
-java BodaBodaFare           # the JVM runs it
+```powershell
+java -version
+javac -version
+java 01-Introduction-to-Java/my-work/HelloWorld.java
+java 12-Abstraction-and-Interfaces/examples/ReceiptDemo.java
 ```
 
-`.class` files are ignored by git (see `.gitignore`).
+Single-file source launching requires Java 11 or later. Compile collaborating classes together; see [the exercise guide](EXERCISES.md). JavaFX requires additional SDK/dependency configuration.
 
-## Note
-`02-Software-Development-and-OOP-Basics/videos/` holds the Spiral Model demo videos. They stay on this computer only: `*.mp4` is gitignored to keep the repo small.
+## Study with evidence
+
+- **Predict:** write the output before running.
+- **Build:** attempt the task in your own code.
+- **Test:** cover ordinary input, boundaries and invalid cases.
+- **Explain:** describe why the result is correct.
+- **Track:** tick [progress](PROGRESS.md) when you can do it independently.
+
+> [!NOTE]
+> Source transcriptions can contain extraction artefacts or historical instructions. Start with the edited unit READMEs. Original PDFs and pre-migration notes are preserved outside this repository; see [SOURCES.md](SOURCES.md).
