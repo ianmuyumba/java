@@ -16,8 +16,8 @@ One folder per weekly practical session. Each folder has:
 | 2 | Variables, data types and operators | [week-02-variables-and-operators](week-02-variables-and-operators/) |
 | 3 | Conditionals | [week-03-conditionals](week-03-conditionals/) |
 | 4 | Loops | [week-04-loops](week-04-loops/) |
-| 5 | Arrays and ArrayLists | coming next |
-| 6 | Classes and objects | |
+| 5 | Arrays and ArrayLists | [week-05-arrays-and-arraylists](week-05-arrays-and-arraylists/) |
+| 6 | Classes and objects | coming next |
 | 7 | Inheritance and method overriding | |
 | 8 | Polymorphism and abstract classes | |
 | 9 | Interfaces and exception handling | |
