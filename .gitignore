@@ -1,27 +1,12 @@
-# Compiled Java files
+# Compiled Java
 *.class
+build/
 
-# VS Code settings
+# Editor / OS
 .vscode/
-
-# OS files
+.idea/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Files created by the file I/O exercises
 *.log
-
-# Large demo videos (kept on this computer only)
-*.mp4
-
-# NetBeans build output
-build/
-dist/
-nbproject/private/
-
-# Local Python tooling and generated exercise reports
-__pycache__/
-attendance-report.txt
-
-# Course PDFs are archived outside the repository; Markdown is the reading format
-*.pdf
