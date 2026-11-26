@@ -14,8 +14,8 @@ One folder per weekly practical session. Each folder has:
 |---|---|---|
 | 1 | Introduction to Java and OOP | [week-01-intro-to-java](week-01-intro-to-java/) |
 | 2 | Variables, data types and operators | [week-02-variables-and-operators](week-02-variables-and-operators/) |
-| 3 | Conditionals | coming next |
-| 4 | Loops | |
+| 3 | Conditionals | [week-03-conditionals](week-03-conditionals/) |
+| 4 | Loops | coming next |
 | 5 | Arrays and ArrayLists | |
 | 6 | Classes and objects | |
 | 7 | Inheritance and method overriding | |
