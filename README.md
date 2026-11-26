@@ -17,8 +17,8 @@ One folder per weekly practical session. Each folder has:
 | 3 | Conditionals | [week-03-conditionals](week-03-conditionals/) |
 | 4 | Loops | [week-04-loops](week-04-loops/) |
 | 5 | Arrays and ArrayLists | [week-05-arrays-and-arraylists](week-05-arrays-and-arraylists/) |
-| 6 | Classes and objects | coming next |
-| 7 | Inheritance and method overriding | |
+| 6 | Classes and objects | [week-06-classes-and-objects](week-06-classes-and-objects/) |
+| 7 | Inheritance and method overriding | coming next |
 | 8 | Polymorphism and abstract classes | |
 | 9 | Interfaces and exception handling | |
 | 10 | Collections framework and file I/O | |
