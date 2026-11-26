@@ -21,7 +21,7 @@ One folder per weekly practical session. Each folder has:
 | 7 | Inheritance and method overriding | [week-07-inheritance](week-07-inheritance/) |
 | 8 | Polymorphism and abstract classes | [week-08-polymorphism-and-abstract-classes](week-08-polymorphism-and-abstract-classes/) |
 | 9 | Interfaces and exception handling | [week-09-interfaces-and-exceptions](week-09-interfaces-and-exceptions/) |
-| 10 | Collections framework and file I/O | coming next |
+| 10 | Collections framework and file I/O | [week-10-collections-and-file-io](week-10-collections-and-file-io/) |
 
 ## Running a solution
 

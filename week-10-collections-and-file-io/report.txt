@@ -1,0 +1,9 @@
+=== EXAMINATION REPORT ===
+Total Students Processed: 5
+Class Average: 67.60
+--------------------------
+Student: Alice | Result: PASSED
+Student: Bob | Result: FAILED
+Student: Charlie | Result: PASSED
+Student: Diana | Result: PASSED
+Student: Eve | Result: FAILED
