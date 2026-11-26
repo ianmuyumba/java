@@ -19,8 +19,8 @@ One folder per weekly practical session. Each folder has:
 | 5 | Arrays and ArrayLists | [week-05-arrays-and-arraylists](week-05-arrays-and-arraylists/) |
 | 6 | Classes and objects | [week-06-classes-and-objects](week-06-classes-and-objects/) |
 | 7 | Inheritance and method overriding | [week-07-inheritance](week-07-inheritance/) |
-| 8 | Polymorphism and abstract classes | coming next |
-| 9 | Interfaces and exception handling | |
+| 8 | Polymorphism and abstract classes | [week-08-polymorphism-and-abstract-classes](week-08-polymorphism-and-abstract-classes/) |
+| 9 | Interfaces and exception handling | coming next |
 | 10 | Collections framework and file I/O | |
 
 ## Running a solution
